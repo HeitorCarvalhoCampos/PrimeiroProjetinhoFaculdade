@@ -1,0 +1,29 @@
+# @env=development
+
+# ### Listar produtos
+# GET {{baseUrl}}/products
+
+# ### Criar produto
+# POST {{baseUrl}}/products
+# Content-Type: application/json
+
+# {
+#     "name": "Notebook"
+# }
+
+# ### Remover produto
+# DELETE {{baseUrl}}/products/1
+
+### Listar produtos
+GET http://localhost:8080/products
+
+### Criar produto
+POST http://localhost:8080/products
+Content-Type: application/json
+
+{
+    "name": "Celular"
+}
+
+### Remover produto
+DELETE http://localhost:8080/products/1

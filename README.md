@@ -22,7 +22,7 @@ O banco de dados utilizado é o H2 Database em memória.
 * Spring Data JPA
 * H2 Database
 * Maven
-* VS Code
+* VS Code (IDE)
 * REST Client
 
 ---
